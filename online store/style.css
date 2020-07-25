@@ -1,0 +1,25 @@
+   
+.delivery{
+    background-color: black;
+}
+.delivery:hover{
+    background-color: blue;
+}
+.delivery1{
+    background-color: black;
+    color: blanchedalmond;
+}
+ .fa-shipping-fast,
+ .fa-undo-alt,
+ .fa-gift{
+    font-size: xx-large;
+    color: red!important;
+}
+.fa-cc-mastercard,
+.fa-credit-card,
+.fa-cc-paypal,
+.fa-cc-amex{
+    font-size: xx-large;
+    color: rgb(6, 42, 247)!important;
+}
+    

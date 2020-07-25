@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Store</title>
+
+    <style>
+        .carousel-inner img{
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libspannimate.css/3.7.2 border rounded-lg /animate.min.css">
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <!--jquery library-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!--popper js-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <!--latest compiled javascript-->    
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <!--icon k liye cdn use karo-->
+    <script src="https://kit.fontawesome.com/7f1c7985f7.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!----------------------------header-------------------------------->
+
+    <div class="container-fluid">
+        <div class="row bg-primary">
+            <div class="col-md-4 col-12 bg-primary">
+                <div class="btn-group">
+                <button class=" btn border dspandown-toggle my-2 border rounded-lg  my-md-4 " type="button" data-toggle="dropdown">
+                    usb
+                </button>
+                <div class="dropdown-menu">
+                    <a href="#" class="dropdown-item">link1</a>
+                </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <h2 class="display-4 text-center">online store</h2>
+            </div>
+            <div class="col-md-4 text-center p-2  ">
+      <p class="my-2  my-md-4">
+                <a href="#" class="text-light p-2   text-decoration-none">sign in</a>
+                <a href="#" class="text-light p-2   text-decoration-none">create a account</a>
+                </p>
+            </div>
+        </div>
+    </div>
+    <!----------------------------header------------------->
+    <!------------------------navigation bar--------------->
+
+    
+    <div class="container-fluid p-0">
+        <nav class="navbar navbar-expand-md navbar-light bg-light">
+            <a href="#" class="navbar-brand">LOGO</a>
+            <button
+             class="navbar-toggler"
+             type="button"
+             data-toggle="collapse"
+             data-target="#navbarnav"
+             aria-controls="navbarnav"
+             aria-expanded="false"
+             aria-label="toggle-navigation">
+            <div class="navbar-toggler-icon"></div>
+            </button>
+            <div class="collapse navbar-collapse " id="navbarnav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link text-dark">home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link text-dark">collections</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link text-dark">featured</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link text-dark">latest</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="navbar-nav">
+                <li class="nav-item border rounded-circle mx-2 border   search-icon">
+                    <i class="fas fa-search"></i>
+                </li>
+                <li class="nav-item border rounded-circle mx-2 border mr-3  search-icon">
+                    <i class="fas fa-shopping-basket"></i>
+                </li>
+            </div>
+        </nav>
+    </div>
+
+
+
+    <!------------------------navigation bar--------------->
+    <!-------------------------main slider one---------------------------->
+    <div class="container-fluid p-0">
+    <div id="slider1" class="carousel slide " data-ride="carousel">
+        <!--indicators-->
+        <ul class="carousel-indicators">
+            <li class="active" data-target="#slider1" data-slide-to="0"></li>
+            <li class="" data-target="#slider1" data-slide-to="1"></li>
+            <li class="" data-target="#slider1"data-slide-to="2 "></li>
+            <li class="" data-target="#slider1" data-slide-to="3"></li>
+            <li class="" data-target="#slider1" data-slide-to="4"></li>
+            <li class="" data-target="#slider1" data-slide-to="5"></li>
+            <li class="" data-target="#slider1" data-slide-to="6"></li>
+            <li class="" data-target="#slider1" data-slide-to="7"></li>
+            <li class="" data-target="#slider1" data-slide-to="8"></li>
+            <li class="" data-target="#slider1" data-slide-to="9"></li>
+        </ul>
+
+        <!--slideshows-->
+        
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="car1.jpg" alt="" width="1100" height="500">
+            </div>
+            <div class="carousel-item">
+                           <img src="./car/car2.jpg" alt="a" width="1100" height="500">
+            </div>
+            <div class="carousel-item" >
+                           <img src="./car/car3.jpg" alt="" width="1100" height="500">
+            </div>
+            <div class="carousel-item">
+                            <img src="./car/car4.jpg" alt="" width="1100" height="500">
+            </div>
+            <div class="carousel-item">
+                            <img src="./car/car5.jpg" alt="" width="1100" height="500">
+            </div>
+            <div class="carousel-item">
+                            <img src="./car/car6.jpg" alt="" width="1100" height="500">
+            </div>
+            <div class="carousel-item">
+                            <img src="./car/car7.jpg" alt="" width="1100" height="500">
+            </div>
+            <div class="carousel-item">
+                            <img src="./car/car8.jpg" alt="" width="1100" height="500">
+            </div>
+            <div class="carousel-item">
+                            <img src="./car/car9.jpg" alt="" width="1100" height="500">
+            </div>
+            <div class="carousel-item">
+                            <img src="./car/car10.jpg" alt="" width="1100" height="500">
+            </div>
+        </div>
+    
+        <!--slideshows-->
+        <!--left and right controls-->
+        <a href="#slider1" class="carousel-control-prev" data-slide="prev">
+            <div class="carousel-control-prev-icon"></div>
+        </a>
+        <a href="#slider1" class="carousel-control-next" data-slide="next">
+            <div class="carousel-control-next-icon"></div>
+        </a>
+        <!--left and right controls-->
+
+    </div>
+    </div>
+
+
+    <!------------------------main slider one----------------------------->
+
+    <!---------------------------main slider two--------------------------->
+
+    <div class="container-fluid bg-light py-5 p-5">
+        <div class="row">
+            <div class="col-md-12">
+        <div id="slider2" class="carousel slide carousel-style-circular multi-item-carousel px-md-4 " data-ride="carousel" data-interval="5000">
+
+            <!--indicators-->
+        <ol class="circle carousel-indicators carousel-indicator-dots mt-0">
+            <li class="active" data-target="#slider2" data-slide-to="0"></li>
+            <li class="" data-target="#slider2" data-slide-to="1"></li>
+            <li class="" data-target="#sliderspandata-slide-to="2 "></li>
+            <li class="" data-target="#slider2" data-slide-to="3"></li>
+            <li class="" data-target="#slider2" data-slide-to="4"></li>
+            <li class="" data-target="#slider2" data-slide-to="5 p-5"></li>
+            <li class="" data-target="#slider2" data-slide-to="6"></li>
+            <li class="" data-target="#slider2" data-slide-to="7"></li>
+            <li class="" data-target="#slider2" data-slide-to="8"></li>
+            <li class="" data-target="#slider2" data-slide-to="9"></li>
+            <li class="" data-target="#slider2" data-slide-to="10"></li>
+            <li class="" data-target="#slider2" data-slide-to="11"></li>
+            <li class="" data-target="#slider2" data-slide-to="12"></li>
+            <li class="" data-target="#slider2" data-slide-to="13"></li>
+            <li class="" data-target="#slider2" data-slide-to="14"></li>
+        </ol>
+
+
+
+        
+                <div class="carousel-inner row w-100   my-auto text-left py-5" role="listbox">
+                    
+                    <div class="carousel-item active   ">
+                        <div class="row">
+                            <div class="col-4 p-md-5 ">
+                                <div class="container-fluid m-0 h-100">
+                        <img src="./car/bike1.jpg" alt=""width="1100" height="500" class="img-fluid rounded   text-left  d-block">
+                        </div>
+                        <div class="btn btn-block p-0 m-0  btn-light"><strike>$ 10.00</strike> $ 8.00</div>
+                        </div>
+                            <div class="col-4 p-md-5 ">
+                                <div class="container-fluid m-0 h-100">
+                        <img src="./car/bike2.jpg" alt=""width="1100" height="500" class="img-fluid rounded    text-left  d-block">
+                        </div>
+                        <div class="btn btn-block p-0 m-0  btn-light"><strike>$ 10.00</strike> $ 8.00</div>
+                        </div>                        
+                            <div class="col-4 p-md-5  ">
+                                <div class="container-fluid m-0 h-100">
+                        <img src="./car/BBIKE3.png" alt=""width="1100" height="500" class="img-fluid  rounded text-left  rounded  d-block">
+                        </div>
+                        <div class="btn btn-block p-0 m-0 btn-light"><strike>$ 10.00</strike> $ 8.00</div>
+                        </div>                        
+
+                        </div>
+                    </div>
+                    <div class="carousel-item ">
+                        <div class="row">
+                            <div class="col-4 p-md-5 ">
+                                <div class="container-fluid m-0 h-100">
+                        <img src="./car/bike4.jpg" alt="" width="1100" height="500" class=" img-fluid  text-left rounded  d-block">
+                        </div>
+                        <div class="btn btn-block p-0 m-0 btn-light">text</div>
+                        </div>
+                            <div class="col-4 p-md-5 ">
+                                <div class="container-fluid m-0 h-100">
+                        <img src="./car/bike5.jpg" alt="" width="1100" height="500" class="img-fluid  text-left  d-block rounded ">
+                        </div>
+                        <div class="btn btn-block p-0 m-0 btn-light">text</div>
+                        </div>
+                            <div class="col-4 p-md-5 ">
+                                <div class="container-fluid m-0 h-100">
+
+                        <img src="./car/bike6.jpg" alt="" width="1100" height="500" class="img-fluid text-left  d-block rounded ">
+                        </div>
+                        <div class="btn btn-block p-0 m-0 btn-light">text</div>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item ">
+                        <div class="row">
+                            <div class="col-4 p-md-5 ">
+                                <div class="container-fluid m-0 h-100">
+                        <img src="./car/bike7.jpg" alt="" width="1100" height="500" class="img-fluid  text-left  d-block rounded ">
+                                </div>
+                        <div class="btn btn-block m-0 p-0 btn-light">text</div>
+                        </div>
+                            <div class="col-4 p-md-5 ">
+                                <div class="container-fluid m-0 h-100">
+                        <img src="./car/bike8.jpg" alt="" width="1100" height="500" class="img-fluid  text-left  d-block rounded ">
+                                </div>
+                        <div class="btn btn-block m-0 p-0 btn-light">text</div>
+                        </div>
+                            <div class="col-4 p-md-5 ">
+                                <div class="container-fluid m-0 ">
+                        <img src="./car/bike9.jpg" alt="" width="1100" height="500" class="img-fluid  text-left  d-block rounded ">
+                                </div>
+                        <div class="btn btn-block p-0 m-0 btn-light">text</div>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-4 p-md-5">
+                                <div class="container-fluid m-0 h-100">
+                        <img src="./car/bike10.jpg" alt="" width="1100" height="500" class="img-fluid  text-left d-block rounded ">
+                                </div>
+                        <div class="btn btn-block m-0 p-0 btn-light">text</div>
+                        </div>
+                            <div class="col-4 p-md-5 ">
+                                <div class="container-fluid m-0 h-100">
+                        <img src="./car/bike11.jpg" alt="" width="1100" height="500" class="img-fluid  text-left d-block rounded ">
+                                </div>
+                        <div class="btn btn-block m-0 p-0 btn-light">text</div>
+                        </div>
+                            <div class="col-4 p-md-5 ">
+                                <div class="container-fluid m-0 h-100">
+                        <img src="./car/bike12.jpg" alt="" width="1100" height="500" class="img-fluid  text-left  d-block rounded ">
+                                </div>
+                        <div class="btn btn-block m-0 p-0 btn-light">text</div>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-4 p-md-5 ">
+                                <div class="container-fluid m-0 h-100">
+                                        <img src="./car/bike13.jpg" alt="" width="1100" height="600" class="img-fluid text-left d-block rounded ">
+                                </div>
+                                        <div class="btn btn-block m-0 p-0 btn-light ">text</div>
+                        </div>
+                            <div class="col-4 p-md-5 ">
+                                <div class="container-fluid m-0 h-100">
+                                        <img src="./car/bike14.jpg" alt="" width="1100" height="600" class="img-fluid  text-left  d-block rounded ">
+                                </div>
+                                        <div class="btn btn-block m-0 p-0 btn-light">text</div>
+                        </div>
+                            <div class="col-4 p-md-5  ">
+                                <div class="container-fluid m-0 h-100">
+                                        <img src="./car/bike15.jpg" alt="" width="1100" height="600" class="img-fluid  text-left  d-block rounded ">
+                                </div>
+                        <div class="btn btn-block m-0 p-0 btn-light">text</div>
+                        </div>
+                        </div>
+                        
+                    </div>
+                   <!---- <div class="carousel-item col-md-4">
+                                    <img src="./car/bike6.jpg" alt="" width="1100" height="500" class="img-fluid my-auto text-left py-5 d-block">
+                        <div class="btn">text</div>
+                    
+                    </div>
+                    <div class="carousel-item col-md-4">
+                                        <img src="./car/bike7.jpg" alt="" width="1100" height="500" class="img-fluid my-auto text-left py-5 d-block">
+                        <div class="btn">text</div>
+                
+                    </div>
+                    <div class="carousel-item col-md-
+                        <img src="./car/bike8.jpg" alt="" width="1100" height="500" class="img-fluid my-auto text-left py-5 d-block">
+                        <div class="btn">text</div>
+                
+                    </div>
+                    <div class="carousel-item col-md-4">
+                                    <img src="./car/bike9.jpg" alt="" width="1100" height="500" class="img-fluid my-auto text-left py-5 d-block">
+                        <div class="btn">text</div>
+                
+                    </div>
+                    <div class="carousel-item col-md-4">
+                                    <img src="./car/bike10.jpg" alt="" width="1100" height="500" class="img-fluid my-auto text-left py-5 d-block">
+                        <div class="btn">text</div>
+                    
+                    </div>
+                    <div class="carousel-item col-md-4">
+                                        <img src="./car/bike11.jpg" alt="" width="1100" height="500" class="img-fluid my-auto text-left py-5 d-block">
+                        <div class="btn">text</div>
+                    
+                    </div>
+                    <div class="carousel-item col-md-4">
+                                    <img src="./car/bike12.jpg" alt="" width="1100" height="500" class="img-fluid my-auto text-left py-5 d-block">
+                        <div class="btn">text</div>
+                        
+                    </div>
+                    <div class="carousel-item col-md-4">
+                                        <img src="./car/bike13.jpg" alt="" width="1100" height="500" class="img-fluid my-auto text-left py-5 d-block">
+                        <div class="btn">text</div>
+                    
+                    </div>
+                    <div class="carousel-item col-md-4">
+                                        <img src="./car/bike14.jpg" alt="" width="1100" height="500" class="img-fluid my-auto text-left py-5 d-block">
+                        <div class="btn">text</div>
+                        
+                    </div>
+                    <div class="carousel-item col-md-4">
+                                        <img src="./car/bike15.jpg" alt="" width="1100" height="500" class="img-fluid my-auto text-left py-5 d-block">
+                        <div class="btn">text</div>
+                    </div>
+                -->
+                </div>
+    
+
+             <!--slideshows-->
+
+
+        <!--left and right controls-->
+        <a href="#slider2" class="carousel-control-prev carousel-control-dark" role="button" data-slide="prev">
+            <div class="carousel-control-prev-icon"></div>
+        </a>
+        <a href="#slider2" class="carousel-control-next carousel-control-dark" role="button" data-slide="next">
+            <div class="carousel-control-next-icon"></div>
+        </a>
+        <!--left and right controls-->
+            </div>
+            </div>
+            </div>
+            </div>
+        
+            
+           
+
+
+
+    <!---------------------------main slider two--------------------------->
+
+    <!--------------------------------5----featured product---------------->
+
+    <div class="container text-center text-dark mt-sm-5">
+        <h2>Featured Product</h2>
+        <p class="m-0">here you can view the 5ost featured product of bikes.</p>
+        <p class="m-0">check the latest bike collection of yours </p>
+    </div>
+
+
+    <!--------/------------------------5----featured product---------------->
+    <!----5-------------product icon--------------------------------------->
+
+    <div class="container-fluid my-5">
+        <div class="row">
+         <!----   <span class="col-md-2 border rounded-lg  col-sm-4">honda</span>
+            <span class="col-md-2 border rounded-lg  col-sm-4">yamaha</span>
+            <span class="col-md-2 border rounded-lg  col-sm-4">ktm</span>
+            <span class="col-md-2 border rounded-lg  col-sm-4">pulsar</span>
+            <span class="col-md-2 border rounded-lg  col-sm-4">ninja</span>
+            <span class="col-md-2 border rounded-lg  col-sm-4">hero</span>  --->
+
+
+           
+               <div class="col-md-2 col-4 m-0 detail fixed-left" id="scrollspy">
+                   <div class="container-fluid text-center">
+                       
+                           <img src="./car/bike1.jpg" alt="honda bike" width="1100" height="500" class="img-fluid m-0">
+                       
+                           <img src="./car/bike2.jpg" alt="honda bike" width="1100" height="500" class="img-fluid m-0"><a href="#honda" class="stretched-link"><span>honda</span></a>
+                           <img src="./car/bike3.jpg" alt="honda bike" width="1100" height="500" class="img-fluid m-0"><span>yamaha</span>
+                           <img src="./car/bike4.jpg" alt="honda bike" width="1100" height="500" class="img-fluid m-0"><span>ktm</span>
+                           <img src="./car/bike5.jpg" alt="honda bike" width="1100" height="500" class="img-fluid m-0"><span>pulsar</span>
+                           <img src="./car/bike6.jpg" alt="honda bike" width="1100" height="500" class="img-fluid m-0"><span>ninja</span>
+                           <img src="./car/bike7.jpg" alt="honda bike" width="1100" height="500" class="img-fluid m-0"><span>hero</span>
+                           <img src="./car/bike8.jpg" alt="honda bike" width="1100" height="500" class="img-fluid m-0"><span>suzuki</span>
+                           <img src="./car/bike9.jpg" alt="honda bike" width="1100" height="500" class="img-fluid m-0"><span>bmw</span>
+                           <img src="./car/bike10.jpg" alt="honda bike" width="1100" height="500" class="img-fluid m-0"><span>apache</span>
+                           <img src="./car/bike11.jpg" alt="honda bike" width="1100" height="500" class="img-fluid m-0"><span>bajaj</span>
+                           <img src="./car/bike12.jpg" alt="honda bike" width="1100" height="500" class="img-fluid m-0"><span>modified</span>
+                           <img src="./car/bike13.jpg" alt="honda bike" width="1100" height="500" class="img-fluid m-0"><span>r15</span>
+                           <img src="./car/bike14.jpg" alt="honda bike" width="1100" height="500" class="img-fluid m-0"><span>ducati</span>
+                           <img src="./car/bike15.jpg" alt="honda bike" width="1100" height="500" class="img-fluid m-0"><span>duke</span>
+                       </div>
+                       <!--div class="col-8  text-sm-left">
+                           <div class="my-auto text-left py-5">hello</div>
+                           <div class="my-auto text-left py-5">hello</div>
+                           <div class="my-auto text-left py-5">hello</div>
+                           <div class="my-auto text-left py-5">hello</div>
+                           <div class="my-auto text-left py-5">hello</div>
+                           <div class="my-auto text-left py-5">hello</div>
+                           <div class="my-auto text-left py-5">hello</div>
+                           <div class="my-auto text-left py-5">hello</div>
+                           <div class="my-auto text-left py-5">hello</div>
+                           <div class="my-auto text-left py-5">hello</div>
+                        </div-->
+                    
+                   
+               </div>
+               <div class="col-md-10 col-8 border m-0" data-spy="scroll" data-target="#scrollspy" data-offset="1">
+                   <div class="row 1">
+                   <div class="col-md-4 float-left m-0" id="">
+                       <div class="card border-none m-0">
+                           <img src="./car/bike1.jpg" alt="card-image" class="card-img-top">
+                           <div class="card-body text-center m-0 p-0">
+                               <h5 class="m-0">honda</h5>
+                               <p class="m-0">
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning-half-alt"></i>
+                               </p>
+                               <p class="m-0"><i class="fas fa-rupee-sign"></i>cost</p>
+                           </div>
+                       </div>
+                   </div>
+                   <div class="col-md-4 float-left m-0">
+                    <div class="card border-none m-0">
+                        <img src="./car/bike2.jpg" alt="card-image" class="card-img-top">
+                        <div class="card-body text-center m-0 p-0">
+                            <h5 class="m-0">product</h5>
+                            <p class="m-0">
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
+                            
+                                <i class="fas fa-star text-warning-half-alt"></i>
+                            </p>
+                            <p class="m-0"><i class="fas fa-rupee-sign"></i></p>
+                        </div>
+                    </div>
+                   </div>
+                    <div class="col-md-4 m-0">
+                        <div class="card border-none m-0">
+                            <img src="./car/bike3.jpg" alt="card-image" class="card-img-top">
+                            <div class="card-body text-center m-0 p-0">
+                                <h5 class="m-0">product</h4>
+                                <p class="m-0">
+                                    <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
+                                
+                                <i class="fas fa-star text-warning-half-alt"></i>
+                                </p>
+                                <p class="m-0"><i class="fas fa-rupee-sign"></i>cost</p>
+                            </div>
+                        </div>
+                </div>
+                   </div> 
+
+                   <div class="row 2">
+                    <div class="col-md-4 float-left m-0">
+                        <div class="card border-none m-0">
+                            <img src="./car/bike4.jpg" alt="card-image" class="card-img-top">
+                            <div class="card-body text-center m-0 p-0">
+                                <h5 class="m-0">product</h4>
+                                <p class="m-0">
+                                    <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning-half-alt"></i>
+                                </p>
+                                <p class="m-0"><i class="fas fa-rupee-sign"></i>cost</p>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="col-md-4 float-left m-0">
+                            <div class="card border-none m-0">
+                                <img src="./car/bike5.jpg" alt="card-image" class="card-img-top">
+                                <div class="card-body text-center m-0 p-0">
+                                    <h5 class="m-0">product</h4>
+                                    <p class="m-0">
+                                        <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning-half-alt"></i>
+                                    </p>
+                                    <p class="m-0"><i class="fas fa-rupee-sign"></i>cost</p>
+                                </div>
+                            </div>
+                            </div>
+                            <div class="col-md-4 float-left m-0" id="honda">
+                                <div class="card border-none m-0">
+                                    <img src="./car/bike6.jpg" alt="card-image" class="card-img-top">
+                                    <div class="card-body text-center m-0 p-0">
+                                        <h5 class="m-0">product</h4>
+                                        <p class="m-0">
+                                            <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
+                                
+                                
+                                <i class="fas fa-star text-warning-half-alt"></i>
+                                        </p>
+                                        <p class="m-0"><i class="fas fa-rupee-sign"></i></p>
+                                    </div>
+                                </div>
+                                </div>
+                                </div>
+
+
+               </div>
+
+        </div>
+    </div>
+    <!-----5-----------/-product icon--------------------------------------->
+    <!--------------------------------delivery data------------------------->
+
+
+    <div class="row">
+    <div class="container-fluid col-md-4  delivery text-center m-0 p-5">
+        <i class="fas fa-shipping-fast d-block"></i>
+        <h3 class="text-light text-center">FREE SHIPPING</h3>
+        <P class="text-secondary">On all order over <i class="fas fa-rupee-sign"></i></P>
+    </div>
+
+    <div class="container-fluid col-md-4  bg-dark text-center m-0 p-5">
+        <i class="fas fa-undo-alt text-danger d-block"></i>
+        <h3 class="text-light text-center">FREE RETURN</h3>
+        <P class="text-secondary">On first exchange in 30 days <i class="fas fa-rupee-sign"></i></P>
+    </div>
+
+    <div class="container-fluid col-md-4  delivery text-center m-0 p-5">
+        <i class="fas fa-gift d-block"></i>
+        <h3 class="text-light text-center">MEMBER DISCOUNT</h3>
+        <P class="text-secondary">Register and save upto  <i class="fas fa-rupee-sign">29%</i></P>
+    </div>
+    </div>
+
+    <!-----------------------------/---delivery data------------------------->
+    <!----------------------------------footer------------------------------->
+
+
+    <div class="container-fluid delivery1 p-5">
+        <div class="row">
+            <div class="col-md-3">
+                <h2 class="text-left">About Me</h2>
+                <p class="text-secondary">This is all about the detail of developer who built this web page for the purpose of just learning.
+                    <span>UDIT KUMAR</span> </p>
+                    <p>
+                        <i class="fab fa-facebook-square p-1"></i>
+                        <i class="fab fa-instagram p-1"></i>
+                        <i class="fab fa-whatsapp p-1"></i>
+                        <i class="fab fa-linkedin-in p-1"></i>
+                        <i class="fab fa-twitter p-1"></i>
+                    </p>
+            </div>
+            <div class="col-md-3 my-4">
+                <h3>WOmen's day special offer All Branded Car are 50% Discount </h3>
+            </div>
+            <div class="col-md-3 my-4">
+                <h4>USEFUL LINKS</h4>
+                <div class="row">
+
+                <div class="col-4 mr-2">
+                    <span class="d-block text-secondary">Home</span>
+                    <span class="d-block text-secondary">About</span>
+                    <span class="d-block text-secondary">Blog</span>
+                    <span class="d-block text-secondary">Contact</span>
+                </div>
+                <div class="col-4">
+                    <span class="d-block text-secondary">Careers</span>
+                    <span class="d-block text-secondary">Privacy Policy</span>
+                    <span class="d-block text-secondary">Terms and Condition</span>
+                    <span class="d-block text-secondary">Support</span>
+                </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <h4>OUR STORE</h4>
+                <p class="text-secondary">The headquarter of this company is located in New Delhi</p>
+                <h4>WE ACCEPT</h4>
+                <i class="fab fa-cc-mastercard"></i>
+                <i class="fas fa-credit-card"></i>
+                <i class="fab fa-cc-paypal"></i>
+                <i class="fab fa-cc-amex"></i>
+            </div>
+        </div>
+
+    </div>
+
+    <!--------------------------------/--footer------------------------------->
+</body>
+</html>
